@@ -12,6 +12,11 @@ const SignIn = () => {
   const handleSubmit = async e => {
     e.preventDefault();
 
+    if (!email || !password) {
+      setErrorMessage('Preencha os dois campos.');
+      return;
+    }
+
     try {
       await auth.signInWithEmailAndPassword(email, password);
 
