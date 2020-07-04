@@ -1,11 +1,14 @@
-import React, { useState, useCallback } from 'react';
+import React, { useState } from 'react';
 import { useHistory, Link } from 'react-router-dom';
-import { auth } from '../../services/api';
+
+import { useAuth } from '../../hooks/auth';
 
 const SignIn = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
+
+  const { signIn } = useAuth();
 
   const history = useHistory();
 
@@ -18,7 +21,7 @@ const SignIn = () => {
     }
 
     try {
-      await auth.signInWithEmailAndPassword(email, password);
+      await signIn({ email, password });
 
       history.push('dashboard');
     } catch (err) {

@@ -1,11 +1,15 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 
+import AppProvider from './hooks';
+
 import Routes from './routes';
 
 const App = () => (
   <Router>
-    <Routes />
+    <AppProvider>
+      <Routes />
+    </AppProvider>
   </Router>
 );
 
