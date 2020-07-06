@@ -1,6 +1,6 @@
 ![](/web/src/assets/blue-logo.svg)</br></br>
 
-## Este projeto foi desenvolvido durante a Mega Hack 3.0 para ajudar as empresas na gestão de operações portuárias tendo em vista reduzir o consumo de combustível.
+## Este projeto foi desenvolvido durante o Mega Hack 3.0 para ajudar as empresas na gestão de operações portuárias tendo em vista reduzir o consumo de combustível.
 
 ### Funcionalidades
 
@@ -26,7 +26,7 @@ senha: 123123
 Após isso, crie uma cópia do arquivo "*.env.example*" com o nome que se encontra dentro da pasta *src*. Depois basta renomear a cópia para "*.env*"
 
 ## Rodando o projeto
-Para rodar o projeto, basta entrar na pata *web* e executar o seguinte comando:
+Para rodar o projeto, basta entrar na pasta *web* e executar o seguinte comando:
 ```bash
 npm run start
 # ou com yarn
