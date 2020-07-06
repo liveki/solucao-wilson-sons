@@ -24,3 +24,11 @@ email: equipe@rebocdata.com.br
 senha: 123123
 
 Após isso, crie uma cópia do arquivo "*.env.example*" com o nome que se encontra dentro da pasta *src*. Depois basta renomear a cópia para "*.env*"
+
+## Rodando o projeto
+Para rodar o projeto, basta entrar na pata *web* e executar o seguinte comando:
+```bash
+npm run start
+# ou com yarn
+yarn start
+```
