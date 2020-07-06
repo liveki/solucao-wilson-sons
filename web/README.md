@@ -1,6 +1,6 @@
 ![](/web/src/assets/blue-logo.svg)</br></br>
 
-## Este projeto foi desenvolvido durante a Mega Hack 3.0 para ajudar as empresas na gestão de operações tendo em vista reduzir o consumo de combustível.
+## Este projeto foi desenvolvido durante a Mega Hack 3.0 para ajudar as empresas na gestão de operações portuárias tendo em vista reduzir o consumo de combustível.
 
 ### Funcionalidades
 
