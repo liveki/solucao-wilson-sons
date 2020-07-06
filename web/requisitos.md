@@ -30,9 +30,9 @@
 
 - Quando for cadastrada uma manobra, deve-se buscar as informações atuais.
 
-**RN**
+**RN** - Regras de negócio
 
-- Deve-se verificr se uma manobra já existe, se sim, aplicar _Machine Learning_
+- Se manobra já existir, aplicar _Machine Learning_
 
 # Dados para cadastro do usuário
 
